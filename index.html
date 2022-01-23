@@ -1,50 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- bootstrap css link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <!-- my custom css -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>K.B Convention Center</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header start -->
 
     <header>
-        <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container">
-              <a class="navbar-brand header-title" href="#"><span>K</span>.B <span>C</span>onvention <span>C</span>enter</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
-                  </li>
-                </ul>
-              </div>
+      <!-- navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand header-title" href="#"
+            ><span>K</span>.B <span>C</span>onvention <span>C</span>enter</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- wedding slider -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide "
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img
+              src="./images/images/banner.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-1 fw-bold">
+                The perfect venue for your next event
+              </h5>
+              <p>
+                If you trust on us you will never be regret. Because we give
+                best service in reasonable price.
+              </p>
+              <a
+                href="https://www.bangladeshimatrimony.com/?pub=google&utm_source=google&utm_medium=search&utm_campaign={campaign}&utm_content=485511855255&device=c&matchtype=b&network=g&keyword=brides%20matrimonial&placement=&campaignid=114753338&adgroupid=10636941698&domain=bangla&affiliation=googlesearch&gclid=EAIaIQobChMI6pHDgaPI9QIV_5pmAh0bSQODEAAYAiAAEgLG8fD_BwE"
+                target="_blank"
+              >
+                <button class="btn bg-white text-primary fw-bold">
+                  Book Now
+                </button></a
+              >
             </div>
-          </nav>
-         
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/banner-image-2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-1 fw-bold">Good Planning for Good Moments</h5>
+              <p>
+                Make some awesome plan and make your special day more special.
+                And on this special moment we are with you.
+              </p>
+              <a
+                href="https://www.bangladeshimatrimony.com/?pub=google&utm_source=google&utm_medium=search&utm_campaign={campaign}&utm_content=485511855255&device=c&matchtype=b&network=g&keyword=brides%20matrimonial&placement=&campaignid=114753338&adgroupid=10636941698&domain=bangla&affiliation=googlesearch&gclid=EAIaIQobChMI6pHDgaPI9QIV_5pmAh0bSQODEAAYAiAAEgLG8fD_BwE"
+                target="_blank"
+                ><button class="btn bg-white text-primary fw-bold">
+                  Book Now
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/images/banner-image-3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-1 fw-bold">An occasion that makes History</h5>
+              <p>
+                Choose a good life partner to make a better future of your life.
+                Only a supportive life partner can make your life better. So be
+                wise and make a best choice best supportive partner for your
+                life.
+              </p>
+              <a
+                href="https://www.bangladeshimatrimony.com/?pub=google&utm_source=google&utm_medium=search&utm_campaign={campaign}&utm_content=485511855255&device=c&matchtype=b&network=g&keyword=brides%20matrimonial&placement=&campaignid=114753338&adgroupid=10636941698&domain=bangla&affiliation=googlesearch&gclid=EAIaIQobChMI6pHDgaPI9QIV_5pmAh0bSQODEAAYAiAAEgLG8fD_BwE"
+                target="_blank"
+                ><button class="btn bg-white text-primary fw-bold">
+                  Book Now
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
 
     <!-- header end -->
 
     <!-- bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

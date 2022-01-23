@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
 
 /* header */
 .header-title{
@@ -25,4 +28,15 @@ nav ul li a:hover{
     border-bottom: 2px solid red;
     transition: all .2s ease-in-out;
    
+}
+/* slider */
+
+
+.show-text-slider{
+    position: relative;
+    color: red;
+    top: -200px;
+    left:400px;
+    width: 80%;
+    margin: 0 auto;
 }
