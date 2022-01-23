@@ -40,3 +40,8 @@ nav ul li a:hover{
     width: 80%;
     margin: 0 auto;
 }
+
+.border-bottom{
+    border-bottom: 2px solid red;
+   
+}
