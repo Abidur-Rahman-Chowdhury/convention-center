@@ -45,3 +45,33 @@ nav ul li a:hover{
     border-bottom: 2px solid red;
    
 }
+.list-style {
+   list-style-type: none;
+   padding-left: 0 !important;
+}
+
+.list-style li::before {
+    content: '\f058';
+   
+    list-style: circle;
+    font-family: 'Font Awesome 5 Free';
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+    font-size: 20px;
+    color: #EDECF9;
+}
+.hot-parent{
+    position: relative;
+    
+}
+.hot{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: -0;
+    margin-top: -10px;
+}
